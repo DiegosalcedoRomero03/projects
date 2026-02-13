@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Carrito — MiProducto</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">MiProducto</h1>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="index.html#models">Modelos</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container" style="padding-top:2rem;">
+      <h3>Carrito</h3>
+      <aside id="cart" class="cart-panel" aria-live="polite">
+        <h4>Carrito <span class="cart-count">0</span></h4>
+        <ul class="cart-items"></ul>
+        <p class="cart-empty muted">El carrito está vacío.</p>
+        <div class="cart-controls">
+          <button class="btn cart-clear">Vaciar carrito</button>
+          <button class="btn primary cart-checkout">Finalizar compra</button>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container">
+      <p class="muted">© 2026 — Tu marca. Contacto: ejemplo@correo.com</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
